@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav {
+  z-index: 9999;
+}
+.active {
+  color: #9a6b3a;
+  font-weight: 800;
+}
+.btn {
+  transition: all 0.5s;
+  transform: translateY(100%);
+  opacity: 0;
+}
+.product:hover .btn {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.checkout-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  background-color: #f3f4f6; /* Adjust to match your theme */
+  border-top: 1px solid #ddd; /* Optional: border to separate from content */
+  transition: transform 0.3s ease;
+}

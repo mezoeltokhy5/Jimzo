@@ -17,7 +17,7 @@ export default function Navbar() {
   }
   return (
     <>
-      <nav className="  md:fixed top-0 inset-x-0 py-2 text-center capitalize">
+      <nav className=" bg-[#f1e6d5] md:fixed top-0 inset-x-0 py-2 text-center capitalize">
         <div className="container flex flex-col md:flex-row justify-between items-center text-gray-500">
           <div className="flex flex-col md:flex-row space-x-3">
             <NavLink to="home">

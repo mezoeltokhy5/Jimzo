@@ -4,7 +4,7 @@ import style from "./Footer.module.css";
 export default function Footer() {
   return (
     <>
-      <footer className=" py-10 px-4 ">
+      <footer className=" bg-[#f1e6d5] py-10 px-4 ">
         <div className="container">
           <h2>Get the Jimzo app</h2>
           <p>
